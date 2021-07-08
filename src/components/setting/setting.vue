@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div class="setting">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'setting',
   props: {
     msg: String
   }
@@ -15,8 +15,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-img{
-  display: inline-block;
-  height: 60px;
-}
+
 </style>
